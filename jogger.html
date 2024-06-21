@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous" />
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/5f59ca6ad3.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <nav class="navbar fixed-top">
+        <div class="logo">AnyThing</div>
+        <ul class="nav-items">
+        <a href="index.html">
+                <li class="nav-item">Home</li>
+        </a>
+        <a href="shop.index.html">
+                <li class="nav-item">Shop</li>
+        </a>
+        <a href="shop.index.html">
+            <li class="nav-item">Men</li>
+        </a>
+        <a href="">
+            <li class="nav-item">Testimonial</li>
+        </a>
+        </ul>
+        <div class="search-whishlist-cart">
+            <input type="text" class="search-bar" placeholder="Search">
+            <i class="fas fa-bars whishlist-icon"> </i>
+            <i class="fas fa-shopping-cart cart-icon"></i>
+        </div>
+    </nav>
+
+<div class="sectionjogger">
+    <div class="men-tshirt-section text-center  pt-5 mb-5">
+        <div class=" text-center pt-3 mb-3">
+            <h1 class="men-tshirt-heading1">
+                <span class="men-shirt-heading">Jogger's</span>
+            </h1>
+        </div>
+        <div class="sort-by d-flex flex-content-column justify-content-end">
+            <label for="sort-by">Sort by:</label>
+            <select id="sort-by">
+                <option value="price-low">Price: Low to High</option>
+                <option value="price-high">Price: High to Low</option>
+                <option value="rating">Rating</option>
+                <option value="popularity">Popularity</option>
+            </select>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="men-jogger-section image-container col-12 col-md-4 col-lg-3" onclick="joggerfunction1()">
+                    <a href="product.index.html">
+                        <img src="https://assets.ajio.com/medias/sys_master/root/20240501/Absp/6632869316fd2c6e6adfcedd/-473Wx593H-467291293-blue-MODEL.jpg" class=" men-shirt-img w-100" alt="Image" id="image">
+                    </a>
+                    <h2 class="top-sellers-product-heading">JUMP CUTS</h2>
+                    <p class="top-sellers-product-description">Men Joggers with Flap Pockets</p>
+                    <p class="top-sellers-product-price">₹598
+                        <span class="top-sellers-product-discount">2,500</span>
+                        <span class="top-sellers-product-off">(72%off)</span>
+                    </p>
+                    <h3 class="top-sellers-product-offer">Offer price ₹447 </h3>
+                </div>
+
+                <div class="men-jogger-section  image-container col-12 col-md-4 col-lg-3" onclick="joggerfunction2()">
+                    <a href="product.index.html">
+                        <img src="https://assets.ajio.com/medias/sys_master/root/20230628/PXyn/649b7465eebac147fc150a09/-473Wx593H-465762411-grey-MODEL.jpg" class=" men-shirt-img w-100" alt="Image" id="image">
+                    </a>
+                    <h2 class="top-sellers-product-heading">STYLI</h2>
+                    <p class="top-sellers-product-description">Men Mid-Rise Joggers with Slip Pockets</p>
+                    <p class="top-sellers-product-price">₹944
+                        <span class="top-sellers-product-discount">1,o40</span>
+                        <span class="top-sellers-product-off">(18%off)</span>
+                    </p>
+                </div>
+
+                <div class="men-jogger-section image-container col-12 col-md-4 col-lg-3" onclick="joggerfunction3()">
+                    <a href="product.index.html">
+                        <img src="https://assets.ajio.com/medias/sys_master/root/20240524/iuYv/6650d0a505ac7d77bb795f96/-473Wx593H-443029082-grey-MODEL.jpg" class=" men-shirt-img w-100" alt="Image" id="image">
+                    </a>
+                    <h2 class="top-sellers-product-heading">DNMX</h2>
+                    <p class="top-sellers-product-description">Men Regular Fit Parachute Pants</p>
+                    <p class="top-sellers-product-price">₹1,499
+                    </p>
+                </div>
+
+                <div class="men-jogger-section image-container col-12 col-md-4 col-lg-3" onclick="joggerfunction4()">
+                    <a href="product.index.html">
+                        <img src="https://assets.ajio.com/medias/sys_master/root/20240117/zpFA/65a7ed7416fd2c6e6aad58eb/-473Wx593H-466764020-green-MODEL.jpg" class=" men-shirt-img w-100" alt="Image" id="image">
+                    </a>
+                    <h2 class="top-sellers-product-heading">JUMP CUTS</h2>
+                    <p class="top-sellers-product-description">Men Joggers with Flap Pockets</p>
+                    <p class="top-sellers-product-price">₹486
+                        <span class="top-sellers-product-discount">1,099</span>
+                        <span class="top-sellers-product-off">(59%off)</span>
+                    </p>
+                </div>
+
+                <div class="men-jogger-section image-container col-12 col-md-4 col-lg-3" onclick="joggerfunction5()">
+                    <a href="product.index.html">
+                        <img src="https://assets.ajio.com/medias/sys_master/root/20240516/o1So/6645f04205ac7d77bb619a3e/-473Wx593H-466267014-blue-MODEL.jpg" class=" men-shirt-img w-100" alt="Image" id="image">
+                    </a>
+                    <h2 class="top-sellers-product-heading">JUMP CUTS</h2>
+                    <p class="top-sellers-product-description">Joggers with Drawstring Waist</p>
+                    <p class="top-sellers-product-price">₹598
+                        <span class="top-sellers-product-discount">1,499</span>
+                        <span class="top-sellers-product-off">(54%off)</span>
+                    </p>
+                </div>
+
+                <div class="men-jogger-section image-container col-12 col-md-4 col-lg-3" onclick="joggerfunction6()">
+                    <a href="product.index.html">
+                        <img src="https://assets.ajio.com/medias/sys_master/root/20240513/MILv/6641aa5616fd2c6e6a00455b/-473Wx593H-467327526-black-MODEL.jpg" class=" men-shirt-img w-100" alt="Image" id="image">
+                    </a>
+                    <h2 class="top-sellers-product-heading">PUMA</h2>
+                    <p class="top-sellers-product-description">Logo Print Joggers with Insert Pockets</p>
+                    <p class="top-sellers-product-price">₹1,959
+                        <span class="top-sellers-product-discount">3,999</span>
+                        <span class="top-sellers-product-off">(80%off)</span>
+                    </p>
+                </div>
+
+                <div class="men-jogger-section image-container col-12 col-md-4 col-lg-3" onclick="joggerfunction7()">
+                    <a href="product.index.html">
+                        <img src="https://assets.ajio.com/medias/sys_master/root/20240318/kQmD/65f871cc05ac7d77bbc2d156/-473Wx593H-443028929-darkblue-MODEL.jpg" class=" men-shirt-img w-100" alt="Image" id="image">
+                    </a>
+                    <h2 class="top-sellers-product-heading">ECKO UNLTD </h2>
+                    <p class="top-sellers-product-description">Men Relaxed Fit Joggers</p>
+                    <p class="top-sellers-product-price">₹1,784
+                        <span class="top-sellers-product-discount">1,999</span>
+                        <span class="top-sellers-product-off">(82%off)</span>
+                    </p>
+                </div>
+
+                <div class="men-jogger-section image-container col-12 col-md-4 col-lg-3" onclick="joggerfunction8()">
+                    <a href="product.index.html">
+                         <img src="https://assets.ajio.com/medias/sys_master/root/20240314/WiLk/65f3219c05ac7d77bbb808b5/-473Wx593H-442470634-black-MODEL.jpg" class=" men-shirt-img w-100" alt="Image" id="image">
+                    </a>
+                    <h2 class="top-sellers-product-heading">YOUSTA</h2>
+                    <p class="top-sellers-product-description">Men Graphic Print Regular Fit Joggers</p>
+                    <p class="top-sellers-product-price">₹699</p>
+                </div>
+            </div>
+            <div class="pagination d-flex flex-row justify-content-center pt-5 mb-5">
+
+                <nav aria-label="Page navigation example">
+                    <ul class="pagination">
+                        <li class="page-item">
+                            <a class="page-link" href="#" aria-label="Previous">
+                                <span aria-hidden="true">&laquo;</span>
+                            </a>
+                        </li>
+                        <li class="page-item"><a class="page-link" href="#">1</a></li>
+                        <li class="page-item"><a class="page-link" href="#">2</a></li>
+                        <li class="page-item"><a class="page-link" href="#">3</a></li>
+                        <li class="page-item">
+                            <a class="page-link" href="#" aria-label="Next">
+                                <span aria-hidden="true">&raquo;</span>
+                            </a>
+                        </li>
+                    </ul>
+                </nav>
+
+
+            </div>
+        </div>
+
+    </div>
+</div>
+
+<script src="index.js"></script>
+</body>
+
+</html>
+
