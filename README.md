@@ -1,11 +1,11 @@
 # CODE-TECH-Intern-E-Commerce-website- our website
 
-# Name:**VIJAYKUMAR VAKITI
-# Company:**CODTECH IT SOLUTIONS 
-# ID:**CT08DS329 
-# Domain:**WEB DEVELOPMENT 
-# Duration:**May to June 2024 
-# Mentor:**G.SRAVANI
+ Name:**VIJAYKUMAR VAKITI
+ Company:**CODTECH IT SOLUTIONS 
+ ID:**CT08DS329 
+ Domain:**WEB DEVELOPMENT 
+ Duration:**May to June 2024 
+ Mentor:**G.SRAVANI
 
 # Overview
 This is a fully functional e-commerce website for a fashion store, built using HTML, CSS, and JavaScript to provide a seamless shopping experience for customers.
@@ -39,9 +39,12 @@ To run the project locally, follow these steps:
 
 
 # projective overview
-![Screenshot (20)](https://github.com/vakitivijay/CODE-TECH-Intern-E-Commerce-website-/assets/151705799/e296ac0a-bf38-426f-bc06-c11e165ed670)
-![Screenshot (19)](https://github.com/vakitivijay/CODE-TECH-Intern-E-Commerce-website-/assets/151705799/714c80da-b288-4b54-aacf-6a442b3d564f)
-![Screenshot (18)](https://github.com/vakitivijay/CODE-TECH-Intern-E-Commerce-website-/assets/151705799/650852f8-867b-4ac9-8c1d-bb37e0dd9f6e)
-![Screenshot (17)](https://github.com/vakitivijay/CODE-TECH-Intern-E-Commerce-website-/assets/151705799/71110e39-b1b0-4029-b9cf-08b2a4b438c2)
-![Screenshot (16)](https://github.com/vakitivijay/CODE-TECH-Intern-E-Commerce-website-/assets/151705799/6d77942c-371c-414a-ba1d-04da0603ec4d)
+
 ![Screenshot (15)](https://github.com/vakitivijay/CODE-TECH-Intern-E-Commerce-website-/assets/151705799/92ae82e7-1aad-4588-a580-6ee7ae21caa8)
+![Screenshot (16)](https://github.com/vakitivijay/CODE-TECH-Intern-E-Commerce-website-/assets/151705799/6d77942c-371c-414a-ba1d-04da0603ec4d)
+![Screenshot (17)](https://github.com/vakitivijay/CODE-TECH-Intern-E-Commerce-website-/assets/151705799/71110e39-b1b0-4029-b9cf-08b2a4b438c2)
+![Screenshot (18)](https://github.com/vakitivijay/CODE-TECH-Intern-E-Commerce-website-/assets/151705799/650852f8-867b-4ac9-8c1d-bb37e0dd9f6e)
+![Screenshot (19)](https://github.com/vakitivijay/CODE-TECH-Intern-E-Commerce-website-/assets/151705799/714c80da-b288-4b54-aacf-6a442b3d564f)
+![Screenshot (20)](https://github.com/vakitivijay/CODE-TECH-Intern-E-Commerce-website-/assets/151705799/e296ac0a-bf38-426f-bc06-c11e165ed670)
+
+
