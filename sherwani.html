@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous" />
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/5f59ca6ad3.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <nav class="navbar fixed-top">
+        <div class="logo">AnyThing</div>
+        <ul class="nav-items">
+        <a href="index.html">
+                <li class="nav-item">Home</li>
+        </a>
+        <a href="shop.index.html">
+                <li class="nav-item">Shop</li>
+        </a>
+        <a href="shop.index.html">
+            <li class="nav-item">Men</li>
+        </a>
+        <a href="">
+            <li class="nav-item">Testimonial</li>
+        </a>
+        </ul>
+        <div class="search-whishlist-cart">
+            <input type="text" class="search-bar" placeholder="Search">
+            <i class="fas fa-bars whishlist-icon"> </i>
+            <i class="fas fa-shopping-cart cart-icon"></i>
+        </div>
+    </nav>
+
+<div class="men-sherwani-section text-center  pt-5 mb-5">
+    <div class=" text-center pt-3 mb-3">
+        <h1 class="men-shirt-heading1">
+            <span class="men-shirt-heading">Sherwani</span>
+        </h1>
+    </div>
+    <div class="sort-by d-flex flex-content-column justify-content-end">
+        <label for="sort-by">Sort by:</label>
+        <select id="sort-by">
+            <option value="price-low">Price: Low to High</option>
+            <option value="price-high">Price: High to Low</option>
+            <option value="rating">Rating</option>
+            <option value="popularity">Popularity</option>
+        </select>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="men-sherwani-section image-container col-12 col-md-4 col-lg-3" onclick="sherwanifunction1()">
+                <a href="product.index.html">
+                    <img src="https://assets.ajio.com/medias/sys_master/root/20240502/OmLE/6633c03b16fd2c6e6ae39633/-473Wx593H-467296335-black-MODEL5.jpg" class=" men-shirt-img w-100" alt="Image" id="image">
+                </a>
+                <h2 class="top-sellers-product-heading">KISAH</h2>
+                <p class="top-sellers-product-description">Men Embroidered Regular Fit Sherwani</p>
+                <p class="top-sellers-product-price">₹5,400
+                    <span class="top-sellers-product-discount">10,000</span>
+                    <span class="top-sellers-product-off">(46%off)</span>
+                </p>
+                <h3 class="top-sellers-product-offer">Offer price ₹4,400 </h3>
+            </div>
+
+            <div class="men-sherwani-section  image-container col-12 col-md-4 col-lg-3" onclick="sherwanifunction2()">
+                <a href="product.index.html">
+                    <img src="https://assets.ajio.com/medias/sys_master/root/20240309/c09m/65eb8ff416fd2c6e6a489ff3/-473Wx593H-467149124-green-MODEL.jpg" class=" men-shirt-img w-100" alt="Image" id="image">
+                </a>
+                <h2 class="top-sellers-product-heading">KISAH</h2>
+                <p class="top-sellers-product-description">Men Floral Woven Regular Fit Sherwani</p>
+                <p class="top-sellers-product-price">₹5,890
+                    <span class="top-sellers-product-discount">9,500</span>
+                    <span class="top-sellers-product-off">(38%off)</span>
+                </p>
+                <h3 class="top-sellers-product-offer">Offer price ₹4,890 </h3>
+            </div>
+
+            <div class="men-sherwani-section image-container col-12 col-md-4 col-lg-3" onclick="sherwanifunction3()">
+                <a href="product.index.html">
+                    <img src="https://assets.ajio.com/medias/sys_master/root/20240311/GPnB/65eede7505ac7d77bba727bf/-473Wx593H-467151964-black-MODEL.jpg" class=" men-shirt-img w-100" alt="Image" id="image">
+                </a>
+                <h2 class="top-sellers-product-heading">KISAH</h2>
+                <p class="top-sellers-product-description">Men Floral Woven Regular Fit Sherwani</p>
+                <p class="top-sellers-product-price">₹5,650
+                    <span class="top-sellers-product-discount">11,299</span>
+                    <span class="top-sellers-product-off">(50%off)</span>
+                </p>
+                <h3 class="top-sellers-product-offer">Offer price ₹4,650 </h3>
+            </div>
+
+            <div class="men-sherwani-section image-container col-12 col-md-4 col-lg-3" onclick="sherwanifunction4()">
+                <a href="product.index.html">
+                    <img src="https://assets.ajio.com/medias/sys_master/root/20240311/8dMg/65eef18305ac7d77bba838dc/-473Wx593H-467151905-green-MODEL.jpg" class=" men-shirt-img w-100" alt="Image" id="image">
+                </a>
+                <h2 class="top-sellers-product-heading">KISAH</h2>
+                <p class="top-sellers-product-description">Men Geometric Woven Regular Fit Sherwani</p>
+                <p class="top-sellers-product-price">₹4,794
+                    <span class="top-sellers-product-discount">10,199</span>
+                    <span class="top-sellers-product-off">(52%off)</span>
+                </p>
+            </div>
+
+            <div class="men-sherwani-section image-container col-12 col-md-4 col-lg-3" onclick="sherwanifunction5()">
+                <a href="product.index.html">
+                <img src="https://assets.ajio.com/medias/sys_master/root/20240308/FBXu/65eb143116fd2c6e6a46dd0f/-473Wx593H-467148191-white-MODEL.jpg" class=" men-shirt-img w-100" alt="Image" id="image">
+                </a>
+                <h2 class="top-sellers-product-heading">KISAH</h2>
+                <p class="top-sellers-product-description">Men Floral Woven Regular Fit Sherwani</p>
+                <p class="top-sellers-product-price">₹5,099
+                    <span class="top-sellers-product-discount">8,499</span>
+                    <span class="top-sellers-product-off">(40%off)</span>
+                </p>
+            </div>
+
+            <div class="men-sherwani-section image-container col-12 col-md-4 col-lg-3" onclick="sherwanifunction6()">
+                <a href="product.index.html">
+                <img src="https://assets.ajio.com/medias/sys_master/root/20240502/uXJV/6633973d16fd2c6e6ae2806f/-473Wx593H-467296321-green-MODEL.jpg" class=" men-shirt-img w-100" alt="Image" id="image">
+                </a>
+                <h2 class="top-sellers-product-heading">KISAH</h2>
+                <p class="top-sellers-product-description">Men Embroidered Regular Fit Sherwani</p>
+                <p class="top-sellers-product-price">₹5,600
+                    <span class="top-sellers-product-discount">8,000</span>
+                    <span class="top-sellers-product-off">(30%off)</span>
+                </p>
+            </div>
+
+            <div class="men-sherwani-section image-container col-12 col-md-4 col-lg-3" onclick="sherwanifunction7()">
+                <a href="product.index.html">
+                <img src="https://assets.ajio.com/medias/sys_master/root/20240308/lpF5/65eb146305ac7d77bba1f507/-473Wx593H-467148350-blue-MODEL3.jpg" class=" men-shirt-img w-100" alt="Image" id="image">
+                </a>
+                <h2 class="top-sellers-product-heading">KISAH</h2>
+                <p class="top-sellers-product-description">Men Floral Print Regular Fit Sherwani</p>
+                <p class="top-sellers-product-price">₹5,440
+                    <span class="top-sellers-product-discount">13,499</span>
+                    <span class="top-sellers-product-off">(60%off)</span>
+                </p>
+            </div>
+
+            <div class="men-sherwani-section image-container col-12 col-md-4 col-lg-3" onclick="sherwanifunction8()">
+                <a href="product.index.html">
+                <img src="https://assets.ajio.com/medias/sys_master/root/20240425/saKU/6629657105ac7d77bb26b2b4/-473Wx593H-467276794-grey-MODEL5.jpg" class=" men-shirt-img w-100" alt="Image" id="image">
+                </a>
+                <h2 class="top-sellers-product-heading">KISAH</h2>
+                <p class="top-sellers-product-description">Men Patterned Regular Fit Sherwani</p>
+                <p class="top-sellers-product-price">₹5,670
+                    <span class="top-sellers-product-discount">9,000</span>
+                    <span class="top-sellers-product-off">(52%off)</span>
+                </p>
+            </div>
+        </div>
+        <div class="pagination d-flex flex-row justify-content-center pt-5 mb-5">
+
+            <nav aria-label="Page navigation example">
+                <ul class="pagination">
+                    <li class="page-item">
+                        <a class="page-link" href="#" aria-label="Previous">
+                            <span aria-hidden="true">&laquo;</span>
+                        </a>
+                    </li>
+                    <li class="page-item"><a class="page-link" href="#">1</a></li>
+                    <li class="page-item"><a class="page-link" href="#">2</a></li>
+                    <li class="page-item"><a class="page-link" href="#">3</a></li>
+                    <li class="page-item">
+                        <a class="page-link" href="#" aria-label="Next">
+                            <span aria-hidden="true">&raquo;</span>
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+
+        </div>
+    </div>
+
+</div>
+
+    <script src="index.js"></script>
+</body>
+
+</html>
